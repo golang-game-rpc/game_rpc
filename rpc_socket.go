@@ -8,7 +8,7 @@ import (
 
 func SendSocket(url string, req *Message) (*SPGMRes, error) {
 	// 建立socket连接
-	conn, err := net.Dial("TCP", url)
+	conn, err := net.Dial("tcp", url)
 	if err != nil {
 		return nil, err
 	}

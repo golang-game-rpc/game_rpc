@@ -73,7 +73,6 @@ func unpackData(buff []byte) (*SPGMRes, error) {
 		return nil, err
 	}
 	// 打印
-	g.Log("grpc").Info("接收数据", resp.Data)
 	return resp, nil
 }
 
