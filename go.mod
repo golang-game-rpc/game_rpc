@@ -1,4 +1,4 @@
-module game_rpc
+module http://172.16.1.100:9100/platform/game_rpc
 
 go 1.13
 
