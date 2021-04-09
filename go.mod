@@ -1,4 +1,4 @@
-module http://172.16.1.100:9100/platform/game_rpc
+module github.com/mingzaily/game_rpc
 
 go 1.13
 
