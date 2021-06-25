@@ -1,4 +1,4 @@
-module github.com/mingzaily/game_rpc
+module github.com/golang-game-rpc/game_rpc
 
 go 1.13
 
